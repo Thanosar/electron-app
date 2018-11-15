@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FullCalendarModule } from 'ng-fullcalendar';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgxElectronModule } from 'ngx-electron';
+import { EventSesrvice } from './calendar/event.service';
 
 @NgModule({
   declarations: [
@@ -10,9 +14,12 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxElectronModule,
+    FullCalendarModule,
+    NgbModule
   ],
-  providers: [],
+  providers: [EventSesrvice],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
