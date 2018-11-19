@@ -4,11 +4,11 @@ import { Options } from 'fullcalendar';
 import { EventSesrvice } from './event.service';
 
 @Component({
-  selector: 'app-test',
-  templateUrl: './calendar/app.component.html',
-  styleUrls: [ './calendar/app.component.css' ]
+  selector: 'app-calendar',
+  templateUrl: './calendar.component.html',
+  styleUrls: [ './calendar.component.css' ]
 })
-export class AppComponent implements OnInit  {
+export class CallComponent implements OnInit  {
   calendarOptions: Options;
   displayEvent: any;
   @ViewChild(CalendarComponent) ucCalendar: CalendarComponent;
