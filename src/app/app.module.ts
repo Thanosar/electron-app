@@ -15,12 +15,16 @@ import {CallComponent} from './calendar/calendar.component';
 import {MatCardModule} from '@angular/material/card';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { HomeComponent } from './home/home.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CallComponent,
     MainNavComponent,
+    HomeComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,

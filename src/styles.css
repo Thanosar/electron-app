@@ -4,5 +4,6 @@
 body {
   margin: 0;
   font-family: 'Averta Std' !important;
+  background-image: url('src/assets/img/blue-gradient-background.png');
 }
 
