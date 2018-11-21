@@ -11,7 +11,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgxElectronModule } from 'ngx-electron';
 import { EventSesrvice } from './calendar/event.service';
-import { HomeComponent } from './home/home.component';
 import {CallComponent} from './calendar/calendar.component';
 import {MatCardModule} from '@angular/material/card';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -20,7 +19,6 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     CallComponent,
     MainNavComponent,
   ],
